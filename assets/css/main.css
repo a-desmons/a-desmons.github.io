@@ -3259,3 +3259,13 @@ input, select, textarea {
 	#nav a.active::before {
 	content: "• ";
 	}
+
+	#nav ul {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	#nav li {
+		list-style: none;
+	}
