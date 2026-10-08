@@ -3219,3 +3219,43 @@ input, select, textarea {
 			}
 
 	}
+
+	html {
+	scroll-behavior: smooth;
+	}
+
+	/* Sidebar navigation */
+
+	#nav {
+		margin-top: 2em;
+	}
+
+	#nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav li {
+		margin: 0.5em 0;
+	}
+
+	#nav a {
+		border-bottom: none;
+		color: rgba(255,255,255,0.5);
+		display: inline-block;
+		transition: all 0.2s ease;
+	}
+
+	#nav a:hover {
+		color: #ffffff;
+	}
+
+	#nav a.active {
+	color: #49bf9d;
+	font-weight: 700;
+	}
+	 
+	#nav a.active::before {
+	content: "• ";
+	}
