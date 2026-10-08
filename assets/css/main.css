@@ -3269,3 +3269,17 @@ input, select, textarea {
 	#nav li {
 		list-style: none;
 	}
+
+	details {
+		margin-bottom: 1em;
+	}
+
+	summary {
+		cursor: pointer;
+		font-weight: 600;
+		color: #49bf9d;
+	}
+
+	summary:hover {
+		color: #5cc9a7;
+	}
